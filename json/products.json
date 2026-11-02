@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "title": "Essence Mascara Lash Princess",
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effect.",
+    "category": "beauty",
+    "price": 9.99,
+    "discountPercentage": 7.17,
+    "rating": 4.94,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Very satisfied!",
+        "reviewerName": "Ashot"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Eyeshadow Palette with Mirror",
+    "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating various eye makeup looks.",
+    "category": "beauty",
+    "price": 19.99,
+    "discountPercentage": 5.5,
+    "rating": 4.5,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png",
+    "reviews": []
+  },
+  {
+    "id": 3,
+    "title": "Powder Canister",
+    "description": "The Powder Canister is a finely milled setting powder designed to set makeup and reduce shine.",
+    "category": "beauty",
+    "price": 14.99,
+    "discountPercentage": 15.0,
+    "rating": 4.82,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+    "reviews": []
+  },
+  {
+    "id": 4,
+    "title": "Red Lipstick",
+    "description": "The Red Lipstick is a classic bold lip color with a creamy matte finish.",
+    "category": "beauty",
+    "price": 12.99,
+    "discountPercentage": 10.0,
+    "rating": 4.7,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+    "reviews": []
+  },
+  {
+    "id": 5,
+    "title": "Red Nail Polish",
+    "description": "The Red Nail Polish offers a vibrant red color with a glossy finish for long-lasting wear.",
+    "category": "beauty",
+    "price": 8.99,
+    "discountPercentage": 12.0,
+    "rating": 4.6,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png",
+    "reviews": []
+  },
+  {
+    "id": 6,
+    "title": "Calvin Klein CK One",
+    "description": "Calvin Klein CK One is an iconic fragrance with fresh citrus notes.",
+    "category": "fragrances",
+    "price": 49.99,
+    "discountPercentage": 8.0,
+    "rating": 4.85,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/thumbnail.png",
+    "reviews": []
+  },
+  {
+    "id": 7,
+    "title": "Chanel Coco Noir Eau De",
+    "description": "Chanel Coco Noir is an elegant and mysterious fragrance for evening wear.",
+    "category": "fragrances",
+    "price": 129.99,
+    "discountPercentage": 10.0,
+    "rating": 4.9,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png",
+    "reviews": []
+  },
+  {
+    "id": 8,
+    "title": "Dior J'adore",
+    "description": "Dior J'adore is a luxurious floral fragrance with notes of ylang-ylang and rose.",
+    "category": "fragrances",
+    "price": 89.99,
+    "discountPercentage": 5.0,
+    "rating": 4.75,
+    "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png",
+    "reviews": []
+  }
+]

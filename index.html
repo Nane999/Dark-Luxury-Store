@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Luxury Store</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+
+  <nav class="store-navbar">
+    <div class="nav-container">
+      <div class="logo-box">
+        <i class="fa-solid fa-gem logo-icon"></i>
+        <span class="logo-text" data-i18n="brandTitle">LUXURY STORE</span>
+      </div>
+
+      <div class="filter-bar">
+        <select id="lang-select">
+          <option value="hy">հայ (Arm)</option>
+          <option value="en">EN (Eng)</option>
+          <option value="ru">РУС (Rus)</option>
+        </select>
+
+        <input type="text" id="voronman-dash" placeholder="Search products..." data-i18n-placeholder="searchPlaceholder">
+
+        <select id="kargeri-select">
+          <option value="" data-i18n="allCategories">Բոլոր կատեգորիաները</option>
+        </select>
+
+        <select id="currency-select">
+          <option value="USD">USD ($)</option>
+          <option value="AMD">AMD (֏)</option>
+          <option value="RUB">RUB (₽)</option>
+        </select>
+
+        <select id="address-select">
+          <option value="" data-i18n="selectAddress">Ընտրել առաքման հասցե</option>
+          <option value="Yerevan" data-i18n="yerevan">ք. Երևան</option>
+          <option value="Gyumri" data-i18n="gyumri">ք. Գյումրի</option>
+          <option value="Vanadzor" data-i18n="vanadzor">ք. Վանաձոր</option>
+          <option value="Other" data-i18n="other">Մարզեր / Այլ</option>
+        </select>
+      </div>
+
+      <div class="nav-actions">
+        <a href="#" class="nav-btn">
+          <i class="fa-regular fa-heart"></i>
+          <span class="badge">0</span>
+        </a>
+        <a href="cart.html" class="nav-btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="badge" id="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="hero-section">
+    <div class="hero-wrapper">
+      <div class="hero-content">
+        <span class="hero-badge" data-i18n="heroBadge"><i class="fa-solid fa-star"></i> TOP CATEGORIES & PRODUCTS</span>
+        <h1 class="hero-title" data-i18n="heroTitle">ONLINE SHOPPING</h1>
+        <p class="hero-subtitle" data-i18n="heroSubtitle">Discover a wide range of premium and luxury products from the comfort of your home.</p>
+        <a href="#store-main-content" class="neon-btn hero-btn" data-i18n="openStore">Open Store</a>
+      </div>
+
+      <div class="top-slider-box">
+        <div class="slider-track">
+          <div class="top-card">
+            <span class="top-badge">Top 1</span>
+            <img src="https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png" alt="Mascara">
+            <span class="cat-name">beauty</span>
+            <h4>Essence Mascara</h4>
+            <span class="top-price">9.99 $</span>
+          </div>
+          <div class="top-card">
+            <span class="top-badge">Top 2</span>
+            <img src="https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png" alt="Palette">
+            <span class="cat-name">beauty</span>
+            <h4>Eyeshadow Palette</h4>
+            <span class="top-price">19.99 $</span>
+          </div>
+          <div class="top-card">
+            <span class="top-badge">Top 3</span>
+            <img src="https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png" alt="Powder">
+            <span class="cat-name">beauty</span>
+            <h4>Powder Canister</h4>
+            <span class="top-price">14.99 $</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div id="store-main-content">
+    <div class="main-section">
+      <div id="products-container" class="grid"></div>
+
+      <div class="load-more-container">
+        <button id="show-more-btn" class="neon-btn" data-i18n="showMore">Show More</button>
+      </div>
+    </div>
+
+    <div class="store-footer">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3 data-i18n="footerTitle">LUXURY STORE</h3>
+          <p data-i18n="footerDesc">Ձեր վստահելի և շքեղ առցանց խանութը։</p>
+        </div>
+        <div class="footer-col">
+          <h3 data-i18n="contactUs">Կապ մեզ հետ</h3>
+          <p data-i18n="address"><i class="fa-solid fa-location-dot"></i> Հասցե: ք. Երևան, Աջա Գուսան Շերամի 79/6</p>
+          <p data-i18n="email"><i class="fa-solid fa-envelope"></i> Էլ. փոստ: info@itprojects.am</p>
+          <p data-i18n="phone"><i class="fa-solid fa-phone"></i> Հեռախոս: +374 10 000000</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="rights">© 2026 IT Projects LLC. Բոլոր իրավունքները պաշտպանված են։</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Մոդալ պատուհան -->
+  <div id="product-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn"><i class="fa-solid fa-xmark"></i></span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script type="module" src="pages/app.js"></script>
+</body>
+</html>

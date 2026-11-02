@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Վճարում - Dark Luxury Store</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="detail-page">
+
+  <div class="detail-container-padding checkout-container">
+    <a href="cart.html" class="back-btn">
+      <i class="fa-solid fa-arrow-left"></i> Վերադառնալ զամբյուղ
+    </a>
+
+    <h1 class="cart-page-title">Վճարման Քարտի Տվյալներ</h1>
+
+    <div class="cart-summary">
+      <div id="payment-form">
+        <div class="form-group">
+          <input type="text" id="card-number" placeholder="Քարտի համարը (4000 0000 0000 0000)" maxlength="19" class="form-input">
+        </div>
+
+        <div class="form-row">
+          <div class="form-col">
+            <input type="text" id="card-expiry" placeholder="Վավեր ժամկետ (MM/YY)" maxlength="5" class="form-input">
+          </div>
+          <div class="form-col">
+            <input type="password" id="card-cvv" placeholder="CVV / CVC" maxlength="3" class="form-input">
+          </div>
+        </div>
+
+        <button id="pay-btn" class="neon-btn checkout-submit-btn">Վճարել հիմա</button>
+        <div id="success-msg-container" style="margin-top: 20px; text-align: center;"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="pages/lang.js"></script>
+  <script type="module" src="pages/checkout-app.js"></script>
+</body>
+</html>

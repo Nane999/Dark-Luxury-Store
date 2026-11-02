@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Զամբյուղ - Luxury Store</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="detail-page">
+
+  <div class="container detail-container-padding">
+
+    <a href="index.html" class="back-btn">
+      <i class="fa-solid fa-arrow-left"></i> Վերադառնալ գլխավոր էջ
+    </a>
+    <h1 class="cart-page-title">Ձեր Զամբյուղը</h1>
+    <div id="cart-items-container"></div>
+
+    <div class="cart-summary">
+      <p id="selected-address-text" class="cart-address-text">Առաքման հասցե չի ընտրված</p>
+      <h3 id="cart-total-price" class="cart-total-heading">Ընդհանուր՝ 0 $</h3>
+
+      <div class="checkout-actions-wrapper">
+        <a href="checkout.html" class="neon-btn checkout-link-btn">Ձևակերպել պատվերը</a>
+        <div id="orders-btn-container"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="pages/lang.js"></script>
+  <script type="module" src="pages/cart-app.js"></script>
+</body>
+</html>
